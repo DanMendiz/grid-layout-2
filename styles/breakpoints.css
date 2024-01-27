@@ -1,0 +1,100 @@
+/* Homepage */
+
+@media (min-width: 500px) {
+  /* applies from 500px up */
+}
+
+@media (min-width: 800px) {
+  /* applies from 800px up */
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+
+  .homepage {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(218, 207, 207);
+  }
+
+  .navbar-container {
+    height: 10vh;
+    width: 100%;
+  }
+
+  .navbar-grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+    border: 1px solid red;
+    /* background-color: aqua; */
+  }
+
+  .nav-item {
+    border: 1px solid red;
+  }
+
+  .hero-container {
+    /* height: 45vh;
+    width: 100%; */
+    /* background-color: rgb(61, 208, 88); */
+    /* background:no-repeat url(https://www.robertefuller.com/wp-content/uploads/mother-and-baby-sloth-1200.jpg); */
+  }
+
+  .hero-grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+   
+    /* border: 1px solid red; */
+    /* background-color: rgb(190, 214, 205); */
+    /* background:no-repeat url(https://www.robertefuller.com/wp-content/uploads/mother-and-baby-sloth-1200.jpg); */
+  }
+
+  .hero-item {
+    border: 1px solid red;
+    /* background-color: rgb(176, 27, 159); */
+    height: 45vh;
+    /* width: 100%; */
+  }
+
+  .hero-container-2 {
+    height: 45vh;
+    width: 100%;
+    /* background-color: rgb(61, 208, 95); */
+  
+  }
+
+  .hero-grid-2 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    /* border: 1px solid red; */
+    background-color: rgb(214, 212, 190);
+  }
+
+  .hero-item-2 {
+    border: 1px solid rgb(111, 0, 255);
+    height: 45vh;
+  }
+}
+
+/* Page 2 */
+
+@media (min-width: 500px) {
+  /* applies from 500px up */
+}
+
+@media (min-width: 800px) {
+  /* applies from 800px up */
+}
+
+@media (min-width: 1200px) {
+  /* applies from 1200px up */
+}
